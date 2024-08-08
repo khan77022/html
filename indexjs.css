@@ -1,0 +1,137 @@
+body{
+    /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREZMdkh97V2ILgpnIUlddGbxrVZ7OsPfoTaw&s");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;*/
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mysubmit{
+   font-size: 0.8em ;
+   background-color:darkkhaki; 
+   border: solid 1px;
+   border-radius: 5px;
+   transition-duration: 1s;
+   
+   
+}
+#mysubmit:hover{
+   background-color: rgb(255, 255, 255)  ;
+   transition-duration: 1s;
+   cursor: pointer;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px;
+
+}
+#mytext{
+    background-color:darkkhaki;
+    border: inset 2px rgb(0, 0, 0);
+    transition-duration: 1s;
+    font-size: medium;
+    font-weight:normal;
+}
+#mytext:hover{
+   background-color: rgb(255, 255, 255)  ;
+   transition-duration: 1s;
+   box-shadow: 5px 5px 5px;
+}
+#myh1{
+    text-shadow: 5px 5px 4px aquamarine;
+    text-align: center;
+}
+#box1{
+    height: 200px;
+    width: 450px;
+    margin: auto;
+    /*background-color: rgb(170, 153, 153);*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    border: solid 5px black;
+    border-radius: 15px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFAulbVW6uSk9OYLUbFGZ8-J3QKoJuy4Vx5w&s");
+    transition-duration: 1s;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: double black;
+    
+}
+
+
+#box1:hover{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOgEnZMGethfsU1HkH8B1F4udD72xTZs4xmA&s");
+    transition-duration: 1s;
+    box-shadow: 6px 6px 4px;
+    transition-property: all;
+}
+#username{
+    color: white;
+    transition-duration: 1s;
+}
+#username:hover{
+    color: black;
+    text-shadow: 4px 4px 5px white;
+    transition-duration: 1s;
+}
+#box2{
+    height: 600px;
+    width: 600px;
+    /* background-color: rgb(235, 113, 14);*/
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:url("https://cdn.pixabay.com/photo/2021/10/30/08/27/mountains-6753786_640.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: solid 5px black;
+
+}
+#box2:hover{
+   background-image: url("https://cdn.pixabay.com/photo/2019/11/10/10/44/leaves-4615459_640.jpg");
+}
+#minibox2{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    position:absolute;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size: cover;
+    padding-top: 0px;
+    border: solid  white 5px;
+    border-radius: 200px;
+    
+}
+#hed1{
+    background-color: white;
+    border: solid black 5px;
+    border-radius: 10px;
+    
+}
+#countlable{
+    font-size: 6.5em;
+    color: coral;
+
+}
+.btn{
+    font-size: x-large;
+    margin-top: 30px;
+
+    
+}
